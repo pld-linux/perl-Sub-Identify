@@ -25,7 +25,7 @@ Sub::Identify allows you to retrieve the real name of code references.
 For this, it uses Perl's introspection mechanism, provided by the B
 module.
 
-%description -l pl
+%description -l pl.UTF-8
 Sub::Identify umożliwia odtworzenie prawdziwej nazwy z referencji do
 kodu. W tym celu wykorzystuje mechanizm obserwacyjny Perla
 udostępniany przez moduł B.
