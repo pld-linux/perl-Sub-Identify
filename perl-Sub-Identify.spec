@@ -54,6 +54,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes
 %{perl_vendorarch}/Sub/*.pm
 %dir %{perl_vendorarch}/auto/Sub/Identify
-%{perl_vendorarch}/auto/Sub/Identify/Identify.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Sub/Identify/Identify.so
 %{_mandir}/man3/Sub::Identify.3pm*
