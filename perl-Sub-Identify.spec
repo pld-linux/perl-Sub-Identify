@@ -9,7 +9,7 @@ Summary:	Sub::Identify - Retrieve names of code references
 Summary(pl.UTF-8):	Sub::Identify - odtwarzanie nazw z referencji do kodu
 Name:		perl-Sub-Identify
 Version:	0.12
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
