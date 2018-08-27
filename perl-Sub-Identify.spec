@@ -8,13 +8,13 @@
 Summary:	Sub::Identify - Retrieve names of code references
 Summary(pl.UTF-8):	Sub::Identify - odtwarzanie nazw z referencji do kodu
 Name:		perl-Sub-Identify
-Version:	0.12
-Release:	3
+Version:	0.14
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Sub/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	e9223e830bfdfbd6f40675e3bec76688
+# Source0-md5:	014f19e72698b6a2cbcb54adc9691825
 URL:		http://search.cpan.org/dist/Sub-Identify/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
