@@ -1,6 +1,6 @@
 #
 # Conditional build:
-%bcond_without	tests		# do not perform "make test"
+%bcond_without	tests		# unit tests
 #
 %define	pdir	Sub
 %define	pnam	Identify
@@ -14,7 +14,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Sub/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	014f19e72698b6a2cbcb54adc9691825
-URL:		https://metacpan.org/release/Sub-Identify
+URL:		https://metacpan.org/dist/Sub-Identify
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	rpmbuild(macros) >= 1.745
